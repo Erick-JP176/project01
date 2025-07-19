@@ -1,18 +1,75 @@
+/* IMPORT HARUS PALING ATAS */
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"); */
+
+/* IMPORT FONT */
+/* @import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+* {
+  font-family: Jura, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 1.5rem;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.hero-banner {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+}
+
+img {
+  margin-block: 2rem;
+}
+
 h2 {
-    text-shadow: 40px;
+  text-shadow: 40px;
+  text-transform: capitalize;
 }
-h1{
-    color: green;
-    font-style:<style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-</style> ;
+
+header,
+footer {
+  background-color: rgb(255, 137, 4);
 }
-#dadaayam{
-    color: black;
+
+#copyright {
+  text-align: center;
 }
-#omega3{}
-.biru-putih
+
+/* 
+GUNAKAN SELECTOR YANG DIBUTUHKAN
+Contoh:
+ - Tag: <h1>, <p>, dst
+ - Class: .nama-class
+ - ID: #nama-id
+*/
+
+/* Dalam hal ini selectornya adalah h1 */
+h1 {
+  color: green;
+  text-transform: capitalize;
+  /* Karena ingin merubah font maka gunakan font-family */
+  /* kalau font-family nya punya nama lebih dari satu kata, gunakan kutip diawal dan di akhir nama font-family nya */
+  /* Contoh: kalau nama font-familynya Bitcount Grid Single maka penulisannya => "Bitcount Grid Single" */
+  /* font-family: "Bitcount Grid Single", Arial, Helvetica, sans-serif; */
 }
-    
-.orange-hijau{
+
+.main-element {
+  /* margin horizontal atau kiri dan kanan */
+  margin-inline: auto;
+
+  /* margin vertical atau atas dan bawah */
+  /* margin-block: auto; */
+
+  max-width: 60%;
+  /* max-width: 50rem; */
+  /* max-width: 500px; */
 }
